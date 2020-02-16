@@ -20,6 +20,10 @@ async def ping(ctx):
 @bot.command()
 async def say_hello(ctx):
     await ctx.send('よー。お疲れ！')
+    
+@bot.command()
+async def kick(ctx):
+    await ctx.send('ほらほらこんなとこで長居すんなよ')
 
 
 bot.run(token)
