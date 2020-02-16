@@ -25,5 +25,8 @@ async def say_hello(ctx):
 async def kick(ctx):
     await ctx.send('ほらほらこんなとこで長居すんなよ')
 
+@bot.command()
+async def bye(ctx):
+    await ctx.send('また来いよな')
 
 bot.run(token)
